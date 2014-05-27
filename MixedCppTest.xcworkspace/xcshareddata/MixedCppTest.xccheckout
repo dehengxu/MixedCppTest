@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>22586030-238C-41A3-B1A0-00EF256DFE3A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MixedCppTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B128C529-F6DB-4375-AF27-27443E1C5AB7</key>
+		<string>ssh://github.com/xudeheng/MixedCppTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MixedCppTest.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B128C529-F6DB-4375-AF27-27443E1C5AB7</key>
+		<string>..</string>
+		<key>C6D5D683-14B7-4AC8-92B1-F8167597B636</key>
+		<string>../libproject/cpputils</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/xudeheng/MixedCppTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B128C529-F6DB-4375-AF27-27443E1C5AB7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C6D5D683-14B7-4AC8-92B1-F8167597B636</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cpputils</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B128C529-F6DB-4375-AF27-27443E1C5AB7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MixedCppTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>

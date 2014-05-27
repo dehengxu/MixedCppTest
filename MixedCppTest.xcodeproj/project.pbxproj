@@ -442,9 +442,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MixedCppTest/MixedCppTest-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/libproject/libcocoa/libcocoa",
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					./libproject/libcocoa/libcocoa,
 				);
 				INFOPLIST_FILE = "MixedCppTest/MixedCppTest-Info.plist";
 				LIBRARY_SEARCH_PATHS = "";
@@ -464,9 +464,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MixedCppTest/MixedCppTest-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/libproject/libcocoa/libcocoa",
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					./libproject/libcocoa/libcocoa,
 				);
 				INFOPLIST_FILE = "MixedCppTest/MixedCppTest-Info.plist";
 				LIBRARY_SEARCH_PATHS = "";
@@ -492,6 +492,11 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					./libproject/libcocoa/libcocoa,
+				);
 				INFOPLIST_FILE = "MixedCppTestTests/MixedCppTestTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -510,6 +515,11 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MixedCppTest/MixedCppTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					./libproject/libcocoa/libcocoa,
+				);
 				INFOPLIST_FILE = "MixedCppTestTests/MixedCppTestTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";

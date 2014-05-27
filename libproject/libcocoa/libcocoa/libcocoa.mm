@@ -7,8 +7,7 @@
 //
 
 #import "libcocoa.h"
-//#include "../../cpputils/cpputils/HelloWorld.h"
-//#include <../../cpputils/cpputils/HelloWorld.h>
+
 #include <HelloWorld.h>
 
 @implementation libcocoa
