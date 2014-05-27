@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2422B2D819343475005BF48F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2422B2D719343475005BF48F /* Foundation.framework */; };
+		2422B2DD19343475005BF48F /* CppUtils.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2422B2DC19343475005BF48F /* CppUtils.h */; };
+		2422B2DF19343475005BF48F /* CppUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2422B2DE19343475005BF48F /* CppUtils.mm */; };
+		2422B2E619343475005BF48F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2422B2E519343475005BF48F /* XCTest.framework */; };
+		2422B2E719343475005BF48F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2422B2D719343475005BF48F /* Foundation.framework */; };
+		2422B2E919343475005BF48F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2422B2E819343475005BF48F /* UIKit.framework */; };
+		2422B2EC19343475005BF48F /* libcpputils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2422B2D419343475005BF48F /* libcpputils.a */; };
+		2422B2F219343475005BF48F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2422B2F019343475005BF48F /* InfoPlist.strings */; };
+		2422B2F419343475005BF48F /* cpputilsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2422B2F319343475005BF48F /* cpputilsTests.m */; };
+		2422B30819343496005BF48F /* HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2422B30619343496005BF48F /* HelloWorld.cpp */; };
+		2422B30919343496005BF48F /* HelloWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2422B30619343496005BF48F /* HelloWorld.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2422B2EA19343475005BF48F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2422B2CC19343475005BF48F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2422B2D319343475005BF48F;
+			remoteInfo = cpputils;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2422B2D219343475005BF48F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				2422B2DD19343475005BF48F /* CppUtils.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2422B2D419343475005BF48F /* libcpputils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcpputils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2422B2D719343475005BF48F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2422B2DB19343475005BF48F /* cpputils-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cpputils-Prefix.pch"; sourceTree = "<group>"; };
+		2422B2DC19343475005BF48F /* CppUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CppUtils.h; sourceTree = "<group>"; };
+		2422B2DE19343475005BF48F /* CppUtils.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CppUtils.mm; sourceTree = "<group>"; };
+		2422B2E419343475005BF48F /* cpputilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cpputilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2422B2E519343475005BF48F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2422B2E819343475005BF48F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2422B2EF19343475005BF48F /* cpputilsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cpputilsTests-Info.plist"; sourceTree = "<group>"; };
+		2422B2F119343475005BF48F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2422B2F319343475005BF48F /* cpputilsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cpputilsTests.m; sourceTree = "<group>"; };
+		2422B30619343496005BF48F /* HelloWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorld.cpp; sourceTree = "<group>"; };
+		2422B30719343496005BF48F /* HelloWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorld.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2422B2D119343475005BF48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2422B2D819343475005BF48F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2422B2E119343475005BF48F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2422B2E619343475005BF48F /* XCTest.framework in Frameworks */,
+				2422B2E919343475005BF48F /* UIKit.framework in Frameworks */,
+				2422B2E719343475005BF48F /* Foundation.framework in Frameworks */,
+				2422B2EC19343475005BF48F /* libcpputils.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2422B2CB19343475005BF48F = {
+			isa = PBXGroup;
+			children = (
+				2422B2D919343475005BF48F /* cpputils */,
+				2422B2ED19343475005BF48F /* cpputilsTests */,
+				2422B2D619343475005BF48F /* Frameworks */,
+				2422B2D519343475005BF48F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2422B2D519343475005BF48F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2422B2D419343475005BF48F /* libcpputils.a */,
+				2422B2E419343475005BF48F /* cpputilsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2422B2D619343475005BF48F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2422B2D719343475005BF48F /* Foundation.framework */,
+				2422B2E519343475005BF48F /* XCTest.framework */,
+				2422B2E819343475005BF48F /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2422B2D919343475005BF48F /* cpputils */ = {
+			isa = PBXGroup;
+			children = (
+				2422B30619343496005BF48F /* HelloWorld.cpp */,
+				2422B30719343496005BF48F /* HelloWorld.h */,
+				2422B2DC19343475005BF48F /* CppUtils.h */,
+				2422B2DE19343475005BF48F /* CppUtils.mm */,
+				2422B2DA19343475005BF48F /* Supporting Files */,
+			);
+			path = cpputils;
+			sourceTree = "<group>";
+		};
+		2422B2DA19343475005BF48F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2422B2DB19343475005BF48F /* cpputils-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2422B2ED19343475005BF48F /* cpputilsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2422B2F319343475005BF48F /* cpputilsTests.m */,
+				2422B2EE19343475005BF48F /* Supporting Files */,
+			);
+			path = cpputilsTests;
+			sourceTree = "<group>";
+		};
+		2422B2EE19343475005BF48F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2422B2EF19343475005BF48F /* cpputilsTests-Info.plist */,
+				2422B2F019343475005BF48F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2422B2D319343475005BF48F /* cpputils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2422B2F719343475005BF48F /* Build configuration list for PBXNativeTarget "cpputils" */;
+			buildPhases = (
+				2422B2D019343475005BF48F /* Sources */,
+				2422B2D119343475005BF48F /* Frameworks */,
+				2422B2D219343475005BF48F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cpputils;
+			productName = cpputils;
+			productReference = 2422B2D419343475005BF48F /* libcpputils.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2422B2E319343475005BF48F /* cpputilsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2422B2FA19343475005BF48F /* Build configuration list for PBXNativeTarget "cpputilsTests" */;
+			buildPhases = (
+				2422B2E019343475005BF48F /* Sources */,
+				2422B2E119343475005BF48F /* Frameworks */,
+				2422B2E219343475005BF48F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2422B2EB19343475005BF48F /* PBXTargetDependency */,
+			);
+			name = cpputilsTests;
+			productName = cpputilsTests;
+			productReference = 2422B2E419343475005BF48F /* cpputilsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2422B2CC19343475005BF48F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = 2422B2CF19343475005BF48F /* Build configuration list for PBXProject "cpputils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2422B2CB19343475005BF48F;
+			productRefGroup = 2422B2D519343475005BF48F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2422B2D319343475005BF48F /* cpputils */,
+				2422B2E319343475005BF48F /* cpputilsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2422B2E219343475005BF48F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2422B2F219343475005BF48F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2422B2D019343475005BF48F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2422B2DF19343475005BF48F /* CppUtils.mm in Sources */,
+				2422B30819343496005BF48F /* HelloWorld.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2422B2E019343475005BF48F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2422B2F419343475005BF48F /* cpputilsTests.m in Sources */,
+				2422B30919343496005BF48F /* HelloWorld.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2422B2EB19343475005BF48F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2422B2D319343475005BF48F /* cpputils */;
+			targetProxy = 2422B2EA19343475005BF48F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2422B2F019343475005BF48F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2422B2F119343475005BF48F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2422B2F519343475005BF48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2422B2F619343475005BF48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2422B2F819343475005BF48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/cpputils.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cpputils/cpputils-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2422B2F919343475005BF48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/cpputils.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cpputils/cpputils-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2422B2FB19343475005BF48F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cpputils/cpputils-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "cpputilsTests/cpputilsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2422B2FC19343475005BF48F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cpputils/cpputils-Prefix.pch";
+				INFOPLIST_FILE = "cpputilsTests/cpputilsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2422B2CF19343475005BF48F /* Build configuration list for PBXProject "cpputils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2422B2F519343475005BF48F /* Debug */,
+				2422B2F619343475005BF48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2422B2F719343475005BF48F /* Build configuration list for PBXNativeTarget "cpputils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2422B2F819343475005BF48F /* Debug */,
+				2422B2F919343475005BF48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2422B2FA19343475005BF48F /* Build configuration list for PBXNativeTarget "cpputilsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2422B2FB19343475005BF48F /* Debug */,
+				2422B2FC19343475005BF48F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2422B2CC19343475005BF48F /* Project object */;
+}

@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		413413A01916604500DE9F99 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4134139D1916604500DE9F99 /* TestViewController.m */; };
+		413413A11916604500DE9F99 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4134139D1916604500DE9F99 /* TestViewController.m */; };
 		4164A48D19164EFD00B30A30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4164A48C19164EFD00B30A30 /* Foundation.framework */; };
 		4164A48F19164EFD00B30A30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4164A48E19164EFD00B30A30 /* CoreGraphics.framework */; };
 		4164A49119164EFD00B30A30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4164A49019164EFD00B30A30 /* UIKit.framework */; };
 		4164A49719164EFD00B30A30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4164A49519164EFD00B30A30 /* InfoPlist.strings */; };
-		4164A49919164EFD00B30A30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4164A49819164EFD00B30A30 /* main.m */; };
+		4164A49919164EFD00B30A30 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4164A49819164EFD00B30A30 /* main.mm */; };
 		4164A49D19164EFD00B30A30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4164A49C19164EFD00B30A30 /* AppDelegate.m */; };
 		4164A49F19164EFD00B30A30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4164A49E19164EFD00B30A30 /* Images.xcassets */; };
 		4164A4A619164EFD00B30A30 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4164A4A519164EFD00B30A30 /* XCTest.framework */; };
@@ -19,6 +21,8 @@
 		4164A4A819164EFD00B30A30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4164A49019164EFD00B30A30 /* UIKit.framework */; };
 		4164A4B019164EFD00B30A30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4164A4AE19164EFD00B30A30 /* InfoPlist.strings */; };
 		4164A4B219164EFD00B30A30 /* MixedCppTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4164A4B119164EFD00B30A30 /* MixedCppTestTests.m */; };
+		41D4386B191731A800DD457D /* AnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D4386A191731A800DD457D /* AnotherViewController.m */; };
+		41D4386C191731A800DD457D /* AnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41D4386A191731A800DD457D /* AnotherViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,13 +36,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4134139C1916604500DE9F99 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		4134139D1916604500DE9F99 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		4164A48919164EFD00B30A30 /* MixedCppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixedCppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4164A48C19164EFD00B30A30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4164A48E19164EFD00B30A30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		4164A49019164EFD00B30A30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4164A49419164EFD00B30A30 /* MixedCppTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MixedCppTest-Info.plist"; sourceTree = "<group>"; };
 		4164A49619164EFD00B30A30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4164A49819164EFD00B30A30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4164A49819164EFD00B30A30 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		4164A49A19164EFD00B30A30 /* MixedCppTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MixedCppTest-Prefix.pch"; sourceTree = "<group>"; };
 		4164A49B19164EFD00B30A30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4164A49C19164EFD00B30A30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,6 +54,8 @@
 		4164A4AD19164EFD00B30A30 /* MixedCppTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MixedCppTestTests-Info.plist"; sourceTree = "<group>"; };
 		4164A4AF19164EFD00B30A30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4164A4B119164EFD00B30A30 /* MixedCppTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixedCppTestTests.m; sourceTree = "<group>"; };
+		41D43869191731A800DD457D /* AnotherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherViewController.h; sourceTree = "<group>"; };
+		41D4386A191731A800DD457D /* AnotherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,10 @@
 			children = (
 				4164A49B19164EFD00B30A30 /* AppDelegate.h */,
 				4164A49C19164EFD00B30A30 /* AppDelegate.m */,
+				41D43869191731A800DD457D /* AnotherViewController.h */,
+				41D4386A191731A800DD457D /* AnotherViewController.m */,
+				4134139C1916604500DE9F99 /* TestViewController.h */,
+				4134139D1916604500DE9F99 /* TestViewController.m */,
 				4164A49E19164EFD00B30A30 /* Images.xcassets */,
 				4164A49319164EFD00B30A30 /* Supporting Files */,
 			);
@@ -120,7 +132,7 @@
 			children = (
 				4164A49419164EFD00B30A30 /* MixedCppTest-Info.plist */,
 				4164A49519164EFD00B30A30 /* InfoPlist.strings */,
-				4164A49819164EFD00B30A30 /* main.m */,
+				4164A49819164EFD00B30A30 /* main.mm */,
 				4164A49A19164EFD00B30A30 /* MixedCppTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -239,8 +251,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413413A01916604500DE9F99 /* TestViewController.m in Sources */,
+				41D4386B191731A800DD457D /* AnotherViewController.m in Sources */,
 				4164A49D19164EFD00B30A30 /* AppDelegate.m in Sources */,
-				4164A49919164EFD00B30A30 /* main.m in Sources */,
+				4164A49919164EFD00B30A30 /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4164A4B219164EFD00B30A30 /* MixedCppTestTests.m in Sources */,
+				413413A11916604500DE9F99 /* TestViewController.m in Sources */,
+				41D4386C191731A800DD457D /* AnotherViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,8 +375,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_INPUT_FILETYPE = automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MixedCppTest/MixedCppTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../libproject/cpputils/cpputils/**",
+				);
 				INFOPLIST_FILE = "MixedCppTest/MixedCppTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -372,8 +394,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_INPUT_FILETYPE = automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MixedCppTest/MixedCppTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../libproject/cpputils/cpputils/**",
+				);
 				INFOPLIST_FILE = "MixedCppTest/MixedCppTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -439,6 +467,7 @@
 				4164A4B719164EFD00B30A30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4164A4B819164EFD00B30A30 /* Build configuration list for PBXNativeTarget "MixedCppTestTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +476,7 @@
 				4164A4BA19164EFD00B30A30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

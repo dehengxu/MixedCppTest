@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TestViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
