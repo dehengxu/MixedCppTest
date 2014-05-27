@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2422B37019343FC4005BF48F /* liblibcocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2422B36B19343FBA005BF48F /* liblibcocoa.a */; };
 		413413A01916604500DE9F99 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4134139D1916604500DE9F99 /* TestViewController.m */; };
 		413413A11916604500DE9F99 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4134139D1916604500DE9F99 /* TestViewController.m */; };
 		4164A48D19164EFD00B30A30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4164A48C19164EFD00B30A30 /* Foundation.framework */; };
@@ -26,6 +27,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2422B36A19343FBA005BF48F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2422B36419343FBA005BF48F /* libcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2422B32119343942005BF48F;
+			remoteInfo = libcocoa;
+		};
+		2422B36C19343FBA005BF48F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2422B36419343FBA005BF48F /* libcocoa.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2422B33119343942005BF48F;
+			remoteInfo = libcocoaTests;
+		};
+		2422B36E19343FC0005BF48F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2422B36419343FBA005BF48F /* libcocoa.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2422B32019343942005BF48F;
+			remoteInfo = libcocoa;
+		};
 		4164A4A919164EFD00B30A30 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4164A48119164EFD00B30A30 /* Project object */;
@@ -36,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2422B36419343FBA005BF48F /* libcocoa.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libcocoa.xcodeproj; path = libproject/libcocoa/libcocoa.xcodeproj; sourceTree = "<group>"; };
 		4134139C1916604500DE9F99 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		4134139D1916604500DE9F99 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		4164A48919164EFD00B30A30 /* MixedCppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixedCppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2422B37019343FC4005BF48F /* liblibcocoa.a in Frameworks */,
 				4164A48F19164EFD00B30A30 /* CoreGraphics.framework in Frameworks */,
 				4164A49119164EFD00B30A30 /* UIKit.framework in Frameworks */,
 				4164A48D19164EFD00B30A30 /* Foundation.framework in Frameworks */,
@@ -82,9 +106,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2422B36519343FBA005BF48F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2422B36B19343FBA005BF48F /* liblibcocoa.a */,
+				2422B36D19343FBA005BF48F /* libcocoaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		4164A48019164EFD00B30A30 = {
 			isa = PBXGroup;
 			children = (
+				2422B36419343FBA005BF48F /* libcocoa.xcodeproj */,
 				4164A49219164EFD00B30A30 /* MixedCppTest */,
 				4164A4AB19164EFD00B30A30 /* MixedCppTestTests */,
 				4164A48B19164EFD00B30A30 /* Frameworks */,
@@ -170,6 +204,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2422B36F19343FC0005BF48F /* PBXTargetDependency */,
 			);
 			name = MixedCppTest;
 			productName = MixedCppTest;
@@ -218,6 +253,12 @@
 			mainGroup = 4164A48019164EFD00B30A30;
 			productRefGroup = 4164A48A19164EFD00B30A30 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2422B36519343FBA005BF48F /* Products */;
+					ProjectRef = 2422B36419343FBA005BF48F /* libcocoa.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4164A48819164EFD00B30A30 /* MixedCppTest */,
@@ -225,6 +266,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2422B36B19343FBA005BF48F /* liblibcocoa.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = liblibcocoa.a;
+			remoteRef = 2422B36A19343FBA005BF48F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2422B36D19343FBA005BF48F /* libcocoaTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = libcocoaTests.xctest;
+			remoteRef = 2422B36C19343FBA005BF48F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4164A48719164EFD00B30A30 /* Resources */ = {
@@ -271,6 +329,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2422B36F19343FC0005BF48F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libcocoa;
+			targetProxy = 2422B36E19343FC0005BF48F /* PBXContainerItemProxy */;
+		};
 		4164A4AA19164EFD00B30A30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4164A48819164EFD00B30A30 /* MixedCppTest */;
@@ -379,12 +442,15 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MixedCppTest/MixedCppTest-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/libproject/libcocoa/libcocoa",
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"../libproject/cpputils/cpputils/**",
 				);
 				INFOPLIST_FILE = "MixedCppTest/MixedCppTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -398,12 +464,15 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MixedCppTest/MixedCppTest-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/libproject/libcocoa/libcocoa",
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"../libproject/cpputils/cpputils/**",
 				);
 				INFOPLIST_FILE = "MixedCppTest/MixedCppTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

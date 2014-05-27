@@ -8,8 +8,7 @@
 
 #import "TestViewController.h"
 
-//#include "HelloWorld.h"
-#import "../libporject/cpputils/cpputils/CppUtils.h"
+#import <libcocoa.h>
 
 @interface TestViewController ()
 
@@ -31,6 +30,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    libcocoa *cocoa = [libcocoa new];
+    [cocoa sayWord:@"Deheng"];
 }
 
 - (void)didReceiveMemoryWarning

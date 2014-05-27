@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface libcocoa : NSObject
-
+- (void)sayWord:(NSString *)word;
 @end
